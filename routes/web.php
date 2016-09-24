@@ -11,6 +11,18 @@
 |
 */
 
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('system/template/blank');
+});
+
+Route::get('/table', function () {
+    return view('system/template/table');
+});
+
+Route::get('/form', function () {
+    return view('system/template/form');
 });

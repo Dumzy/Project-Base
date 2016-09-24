@@ -26,3 +26,24 @@ Route::get('/table', function () {
 Route::get('/form', function () {
     return view('system/template/form');
 });
+
+//student
+
+
+
+
+
+
+
+
+
+//employee
+
+
+
+
+
+
+
+
+//primarydata

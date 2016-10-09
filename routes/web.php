@@ -16,7 +16,7 @@
 //});
 
 Route::get('/', function () {
-    return view('system/template/blank');
+    return view('system/layouts/form');
 });
 
 Route::get('/table', function () {
@@ -28,7 +28,8 @@ Route::get('/form', function () {
 });
 
 //student
-
+Route::get('view-student', 'Student\StudentController@index');
+Route::get('create-student', 'Student\StudentController@create');
 
 
 

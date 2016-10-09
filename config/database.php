@@ -58,7 +58,7 @@ return [
             'port' => '3306',
             'database' => 'academy_database',
             'username' => 'root',
-            'password' => '',
+            'password' => '1234',
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',

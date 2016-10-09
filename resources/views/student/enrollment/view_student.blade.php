@@ -1,19 +1,19 @@
 @extends('system.layouts.baselayout')
 
-
 @section('content')
 
     <div class="page-title">
   		<div class="title_left">
-         	<h3>MAIN TITLE</h3>
+         	<h3>VIEW STUDENT</h3>
     	</div>
+        <div align="right"><button type="button" class="btn btn-primary btn-sm" onClick="viewAddNewStudent();">ADD STUDENT</button></div>
     </div>
           
 	<div class="row">            
    		<div class="col-md-12 col-sm-12 col-xs-12">
-    		<div class="x_panel">
+    		<div class="x_panel" style="height:470px;">
             	<div class="x_title">
-                 	<div class="clearfix" align="left"><b>TABLE TITLE</b></div>
+                 	<div class="clearfix" align="left"><b>STUDENT DETAILS</b></div>
           		</div>
                 
                 <div class="x_content">
@@ -51,5 +51,11 @@
         	</div>
      	</div>
   	</div>
-
+    
+<script>
+  function viewAddNewStudent(){
+    //$.prompt("Hello World!");
+    window.location="{{URL::to('create-student')}}";
+  }
+</script>
 @stop

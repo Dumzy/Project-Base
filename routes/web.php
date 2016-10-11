@@ -15,18 +15,6 @@
 //    return view('welcome');
 //});
 
-Route::get('/', function () {
-    return view('system/layouts/form');
-});
-
-Route::get('/table', function () {
-    return view('system/template/table');
-});
-
-Route::get('/form', function () {
-    return view('system/template/form');
-});
-
 //student
 Route::get('view-student', 'Student\StudentController@index');
 Route::get('create-student', 'Student\StudentController@create');
@@ -39,7 +27,8 @@ Route::get('create-student', 'Student\StudentController@create');
 
 
 //employee
-
+Route::get('view-employee', 'Employee\EmployeeController@index');
+Route::get('create-employee', 'Employee\EmployeeController@create');
 
 
 

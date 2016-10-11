@@ -12,25 +12,25 @@
 
   <!-- Bootstrap core CSS -->
 
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{asset('css/bootstrap.min.css') }}" rel="stylesheet">
 
-  <link href="fonts/css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="{{asset('fonts/css/font-awesome.min.css')}}" rel="stylesheet">
+  <link href="{{asset('css/animate.min.css')}}" rel="stylesheet">
 
   <!-- Custom styling plus plugins -->
-  <link href="css/custom.css" rel="stylesheet">
-  <link href="css/icheck/flat/green.css" rel="stylesheet">
+  <link href="{{asset('css/custom.css')}}" rel="stylesheet">
+  <link href="{{asset('css/icheck/flat/green.css')}}" rel="stylesheet">
 
-  <link href="js/datatables/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
-  <link href="js/datatables/buttons.bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link href="js/datatables/fixedHeader.bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link href="js/datatables/responsive.bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link href="js/datatables/scroller.bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="{{asset('js/datatables/jquery.dataTables.min.css')}}" rel="stylesheet" type="text/css" />
+  <link href="{{asset('js/datatables/buttons.bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+  <link href="{{asset('js/datatables/fixedHeader.bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+  <link href="{{asset('js/datatables/responsive.bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+  <link href="{{asset('js/datatables/scroller.bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
 
   <!-- Prompt -->
-  <link href="css/prompt.css" rel="stylesheet" type="text/css" />
+  <link href="{{asset('css/prompt.css')}}" rel="stylesheet" type="text/css" />
   <!-- Prompt -->
-  <script src="js/jquery.min.js"></script>
+  <script src="{{asset('js/jquery.min.js')}}"></script>
 
   <!--[if lt IE 9]>
         <script src="../assets/js/ie8-responsive-file-warning.js"></script>
@@ -63,7 +63,7 @@
           <!-- menu prile quick info -->
           <div class="profile">
             <div class="profile_pic">
-              <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+              <img src="{{asset('images/img.jpg')}}" alt="..." class="img-circle profile_img">
             </div>
             <div class="profile_info">
               <span>Welcome,</span>
@@ -223,7 +223,7 @@
             <ul class="nav navbar-nav navbar-right">
               <li class="">
                 <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                  <img src="images/img.jpg" alt="">John Doe
+                  <img src="{{asset('images/img.jpg')}}" alt="">John Doe
                   <span class=" fa fa-angle-down"></span>
                 </a>
                 <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
@@ -252,7 +252,7 @@
                   <li>
                     <a>
                       <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
+                                        <img src="{{asset('images/img.jpg')}}" alt="Profile Image" />
                                     </span>
                       <span>
                                         <span>John Smith</span>
@@ -266,7 +266,7 @@
                   <li>
                     <a>
                       <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
+                                        <img src="{{asset('images/img.jpg')}}" alt="Profile Image" />
                                     </span>
                       <span>
                                         <span>John Smith</span>
@@ -280,7 +280,7 @@
                   <li>
                     <a>
                       <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
+                                        <img src="{{asset('images/img.jpg')}}" alt="Profile Image" />
                                     </span>
                       <span>
                                         <span>John Smith</span>
@@ -294,7 +294,7 @@
                   <li>
                     <a>
                       <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
+                                        <img src="{{asset('images/img.jpg')}}" alt="Profile Image" />
                                     </span>
                       <span>
                                         <span>John Smith</span>
@@ -352,15 +352,15 @@
     <div id="notif-group" class="tabbed_notifications"></div>
   </div>
 
-  <script src="js/bootstrap.min.js"></script>
+  <script src="{{asset('js/bootstrap.min.js')}}"></script>
 
   <!-- bootstrap progress js -->
-  <script src="js/progressbar/bootstrap-progressbar.min.js"></script>
-  <script src="js/nicescroll/jquery.nicescroll.min.js"></script>
+  <script src="{{asset('js/progressbar/bootstrap-progressbar.min.js')}}"></script>
+  <script src="{{asset('js/nicescroll/jquery.nicescroll.min.js')}}"></script>
   <!-- icheck -->
-  <script src="js/icheck/icheck.min.js"></script>
+  <script src="{{asset('js/icheck/icheck.min.js')}}"></script>
 
-  <script src="js/custom.js"></script>
+  <script src="{{asset('js/custom.js')}}"></script>
 
 
   <!-- Datatables -->
@@ -368,27 +368,27 @@
   <script src="js/datatables/tools/js/dataTables.tableTools.js"></script> -->
 
   <!-- Datatables-->
-  <script src="js/datatables/jquery.dataTables.min.js"></script>
-  <script src="js/datatables/dataTables.bootstrap.js"></script>
-  <script src="js/datatables/dataTables.buttons.min.js"></script>
-  <script src="js/datatables/buttons.bootstrap.min.js"></script>
-  <script src="js/datatables/jszip.min.js"></script>
-  <script src="js/datatables/pdfmake.min.js"></script>
-  <script src="js/datatables/vfs_fonts.js"></script>
-  <script src="js/datatables/buttons.html5.min.js"></script>
-  <script src="js/datatables/buttons.print.min.js"></script>
-  <script src="js/datatables/dataTables.fixedHeader.min.js"></script>
-  <script src="js/datatables/dataTables.keyTable.min.js"></script>
-  <script src="js/datatables/dataTables.responsive.min.js"></script>
-  <script src="js/datatables/responsive.bootstrap.min.js"></script>
-  <script src="js/datatables/dataTables.scroller.min.js"></script>
+  <script src="{{asset('js/datatables/jquery.dataTables.min.js')}}"></script>
+  <script src="{{asset('js/datatables/dataTables.bootstrap.js')}}"></script>
+  <script src="{{asset('js/datatables/dataTables.buttons.min.js')}}"></script>
+  <script src="{{asset('js/datatables/buttons.bootstrap.min.js')}}"></script>
+  <script src="{{asset('js/datatables/jszip.min.js')}}"></script>
+  <script src="{{asset('js/datatables/pdfmake.min.js')}}"></script>
+  <script src="{{asset('js/datatables/vfs_fonts.js')}}"></script>
+  <script src="{{asset('js/datatables/buttons.html5.min.js')}}"></script>
+  <script src="{{asset('js/datatables/buttons.print.min.js')}}"></script>
+  <script src="{{asset('js/datatables/dataTables.fixedHeader.min.js')}}"></script>
+  <script src="{{asset('js/datatables/dataTables.keyTable.min.js')}}"></script>
+  <script src="{{asset('js/datatables/dataTables.responsive.min.js')}}"></script>
+  <script src="{{asset('js/datatables/responsive.bootstrap.min.js')}}"></script>
+  <script src="{{asset('js/datatables/dataTables.scroller.min.js')}}"></script>
 
 
   <!-- pace -->
-  <script src="js/pace/pace.min.js"></script>
+  <script src="{{asset('js/pace/pace.min.js')}}"></script>
 
   <!-- Prompt -->
-  <script language="javascript" type="text/javascript" src="js/jquery.prompt.js"></script>
+  <script language="javascript" type="text/javascript" src="{{asset('js/jquery.prompt.js')}}"></script>
   <!-- Prompt -->
 
   <script>
@@ -449,28 +449,28 @@
   <!--form css-->
 
   <!-- tags -->
-  <script src="js/tags/jquery.tagsinput.min.js"></script>
+  <script src="{{asset('js/tags/jquery.tagsinput.min.js')}}"></script>
   <!-- switchery -->
-  <script src="js/switchery/switchery.min.js"></script>
+  <script src="{{asset('js/switchery/switchery.min.js')}}"></script>
   <!-- daterangepicker -->
-  <script type="text/javascript" src="js/moment/moment.min.js"></script>
-  <script type="text/javascript" src="js/datepicker/daterangepicker.js"></script>
+  <script type="text/javascript" src="{{asset('js/moment/moment.min.js')}}"></script>
+  <script type="text/javascript" src="{{asset('js/datepicker/daterangepicker.js')}}"></script>
   <!-- richtext editor -->
-  <script src="js/editor/bootstrap-wysiwyg.js"></script>
-  <script src="js/editor/external/jquery.hotkeys.js"></script>
-  <script src="js/editor/external/google-code-prettify/prettify.js"></script>
+  <script src="{{asset('js/editor/bootstrap-wysiwyg.js')}}"></script>
+  <script src="{{asset('js/editor/external/jquery.hotkeys.js')}}"></script>
+  <script src="{{asset('js/editor/external/google-code-prettify/prettify.js')}}"></script>
   <!-- select2 -->
-  <script src="js/select/select2.full.js"></script>
+  <script src="{{asset('js/select/select2.full.js')}}"></script>
   <!-- form validation -->
-  <script type="text/javascript" src="js/parsley/parsley.min.js"></script>
+  <script type="text/javascript" src="{{asset('js/parsley/parsley.min.js')}}"></script>
   <!-- textarea resize -->
-  <script src="js/textarea/autosize.min.js"></script>
+  <script src="{{asset('js/textarea/autosize.min.js')}}"></script>
   <script>
     autosize($('.resizable_textarea'));
   </script>
   <!-- Autocomplete -->
-  <script type="text/javascript" src="js/autocomplete/countries.js"></script>
-  <script src="js/autocomplete/jquery.autocomplete.js"></script>
+  <script type="text/javascript" src="{{asset('js/autocomplete/countries.js')}}"></script>
+  <script src="{{asset('js/autocomplete/jquery.autocomplete.js')}}"></script>
 
   <script type="text/javascript">
     $(function() {

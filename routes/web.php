@@ -29,7 +29,11 @@ Route::get('create-student', 'Student\StudentController@create');
 //employee
 Route::get('view-employee', 'Employee\EmployeeController@index');
 Route::get('create-employee', 'Employee\EmployeeController@create');
-
+Route::post('save-employee', 'Employee\EmployeeController@store');
+Route::get('edit-employee/{id}', 'Employee\EmployeeController@edit');
+Route::post('update-employee', 'Employee\EmployeeController@update');
+Route::post('update-employee-details', 'Employee\EmployeeDetailsController@update');
+Route::get('delete-employee/{id}', 'Employee\EmployeeController@destroy');
 
 
 

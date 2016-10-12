@@ -7,4 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Medium extends Model
 {
     protected $table = 'tbl_master_mediums';
+    protected $primaryKey = 'mdm_id';
 }

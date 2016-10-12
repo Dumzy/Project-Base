@@ -4,11 +4,14 @@
 	<div class="page-title">
     	<div class="title_left">
    			<h3>ADD MEDIUM</h3>
- 		</div>
+ 		  </div>
+      <div align="right">
+          <a href="{{ URL::to('view-medium') }}" class="btn btn-primary btn-sm">MEDIUMS</a>
+      </div>
 	</div>
           
-	<form action="" id="addSchool" class="form-horizontal form-label-left" method="post" enctype="multipart/form-data">
-	
+	<form action="{{ URL::to('save-medium') }}" id="addSchool" class="form-horizontal form-label-left" method="post" enctype="multipart/form-data">
+	{{ csrf_field() }}
     <div class="row">            
   		<div class="col-md-12 col-sm-12 col-xs-12">
     		<div class="x_panel">
@@ -20,7 +23,7 @@
                     
           			<div class="col-md-8 col-sm-12 col-xs-12 form-group">
                         <label class="control-label">MEDIUM</label>
-                        <input type="text" class="form-control" name="scl_name" required>
+                        <input type="text" class="form-control" name="mdmname" required>
                     </div>
         			</div>
                     
